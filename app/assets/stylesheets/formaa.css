@@ -1,0 +1,76 @@
+.formaa{
+max-width: 100%;
+  height: auto;
+  height: 550px;
+  overflow:hidden;
+  padding-top: 20px;
+  z-index: 1;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.formaa img{
+  width: 76%;
+  height: 1px;
+  margin-left: 12%;
+   }
+
+.formaa input[type=text], .formaa input[type=email], .formaa button[type=submit], .formaa select{
+   width: 80%;
+   float: left;
+   margin-left: 10%;
+   box-sizing:border-box;
+
+}
+.formaa input[type=text], .formaa input[type=email], .formaa select{
+  font-size:13px;
+  font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 16px;
+
+  margin-bottom: 12px;
+  color: black;
+  border:none;
+}
+.formaa button[type=submit]{
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: none;
+  color: blue;
+  cursor: pointer;
+
+}
+.formaa button[type=submit]:hover{
+}
+.buttonwrap{
+  float: left;
+  width: 100%;
+  height: 98px;
+  background-repeat: repeat-x;
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.titlewrap{
+
+
+
+}
+.hp{
+  display: none;
+}
+@media only screen and (max-width: 800px) {
+  .formaa{
+  margin-bottom: 8px;
+}
+}
+@media only screen and (max-width: 640px) {
+  .formaa{
+  width: 60%;
+  margin-left: 20%;
+}
+}
+@media only screen and (max-width: 480px) {
+    .formaa{
+  width: 100%;
+  margin-left: 0%;
+}
+}

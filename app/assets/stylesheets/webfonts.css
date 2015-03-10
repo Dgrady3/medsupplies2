@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'arial_narrow';
+    src: url('../fonts/arialnb-webfont.eot');
+    src: url('../fonts/arialnb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/arialnb-webfont.woff') format('woff'),
+         url('../fonts/arialnb-webfont.ttf') format('truetype'),
+         url('../fonts/arialnb-webfont.svg#arial_narrow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
